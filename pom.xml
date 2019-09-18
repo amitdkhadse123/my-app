@@ -69,6 +69,15 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files\Java\jdk1.8.0_202\bin\java.exe</executable>
+            </configuration>
+        </plugin>
+        
       </plugins>
     </pluginManagement>
   </build>
